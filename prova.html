@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rettangoli in orizzontale</title>
+  <style>
+    #contenitore {
+      display: flex;
+      flex-direction: row; /* Imposta la direzione della flessione orizzontalmente */
+      border: 1px solid #ccc;
+      overflow-x: auto; /* Permette lo scroll orizzontale se i rettangoli superano la larghezza del contenitore */
+    }
+
+    .rettangolo {
+      width: 20px;
+      height: 100px; /* Altezza base per i rettangoli */
+      margin: 2px;
+      background-color: blue;
+      flex-shrink: 0; /* Impedisce ai rettangoli di restringersi */
+    }
+  </style>
+</head>
+<body>
+  <div id="contenitore"></div>
+
+  <script>
+    // Supponiamo che tu abbia un array di valori nel dataset
+    const dataset = [5, 10, 15, 8, 12]; // Esempio di dati
+
+    const contenitore = document.getElementById('contenitore');
+
+    // Creiamo rettangoli basati sui valori nel dataset
+    dataset.forEach(function(valore) {
+      const rettangolo = document.createElement('div');
+      rettangolo.classList.add('rettangolo');
+      rettangolo.style.width = valore * 10 + 'px'; // Imposta la larghezza basata sul valore nel dataset
+      contenitore.appendChild(rettangolo);
+    });
+  </script>
+</body>
+</html>
