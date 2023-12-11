@@ -1,0 +1,347 @@
+.frame-7,
+.frame-7 * {
+  box-sizing: border-box;
+}
+.frame-7 {
+  background: #000000;
+  width: auto;
+  height: 14459px;
+  position: relative;
+  overflow-y: auto;
+}
+.are-you-watching-closely {
+  color: #ffffff;
+  text-align: center;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 229px);
+  top: 828px;
+  width: 458px;
+  height: 81px;
+}
+.are-you-watching-closely-span {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.are-you-watching-closely-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.ellipse-1 {
+  background: #890202;
+  border-radius: 50%;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+  left: calc(50% - 68px);
+  top: 172px;
+}
+.the-prestige {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 391px);
+  top: 1913px;
+}
+.the-prestige-span {
+  color: #ffffff;
+  font-family: "LoewNext-Light", sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+.the-prestige-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-ExtraBold", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+.the-prestige2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 391px);
+  top: 2695px;
+}
+.the-prestige-2-span {
+  color: #ffffff;
+  font-family: "LoewNext-Light", sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+.the-prestige-2-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-ExtraBold", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+.follow-the-characters-in-chronological-order {
+  color: #ffffff;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 391px);
+  top: 3437px;
+  width: 782px;
+  height: 74px;
+}
+.follow-the-characters-in-chronological-order-span {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.follow-the-characters-in-chronological-order-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-Bold", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.modalit-isolamento {
+  width: 121.85px;
+  height: 194.48px;
+  position: absolute;
+  left: 220.98px;
+  top: 4669.64px;
+  overflow: hidden;
+}
+.nel-frattempo {
+  color: #000000;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  opacity: 0.8600000143051147;
+  position: absolute;
+  left: 321px;
+  top: 10165px;
+  width: 317px;
+  height: 33px;
+}
+.vector {
+  border-radius: 0px;
+  opacity: 0.8600000143051147;
+  width: 526.05px;
+  height: 821.29px;
+  position: absolute;
+  left: calc(50% - 96.4px);
+  top: calc(50% - 193.24px);
+  overflow: visible;
+}
+.vector-24 {
+  width: 789.44px;
+  height: 1802.7px;
+  position: absolute;
+  left: calc(50% - 304.94px);
+  top: calc(50% - -5248.8px);
+  overflow: visible;
+}
+.vector-39 {
+  opacity: 0.8600000143051147;
+  width: 525.98px;
+  height: 1098.47px;
+  position: absolute;
+  left: calc(50% - -85.97px);
+  top: calc(50% - -1925px);
+  transform: translate(0.09px, -0.2px);
+  overflow: visible;
+}
+.vector-38 {
+  opacity: 0.8600000143051147;
+  width: 722.87px;
+  height: 10449.75px;
+  position: absolute;
+  left: calc(50% - -541.87px);
+  top: calc(50% - 3482.5px);
+  transform: translate(-724.37px, 0px);
+  overflow: visible;
+}
+.vector-43 {
+  opacity: 0.8600000143051147;
+  width: 814.06px;
+  height: 6825.7px;
+  position: absolute;
+  left: calc(50% - 517px);
+  top: calc(50% - 2161.52px);
+  transform: translate(52px, 0px);
+  overflow: visible;
+}
+.vector2 {
+  border-radius: 0px;
+  width: 1011.08px;
+  height: 10595.38px;
+  position: absolute;
+  left: calc(50% - 488px);
+  top: calc(50% - 3482px);
+  overflow: visible;
+}
+.lightning {
+  height: auto;
+  position: absolute;
+  right: 25.61%;
+  left: 66.45%;
+  width: 7.94%;
+  bottom: 36.69%;
+  top: 62.33%;
+  height: 0.97%;
+  overflow: visible;
+}
+.two-friends-and-fellow-magicians-become-bitter-enemies-after-a-sudden-tragedy-as-they-devote-themselves-to-this-rivalry-they-make-sacrifices-that-bring-them-fame-but-with-terrible-consequences {
+  color: #000000;
+  text-align: center;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 332px);
+  top: 2862px;
+  width: 676px;
+  height: 176px;
+}
+.ellipse-2 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 498px;
+  height: 83px;
+  position: absolute;
+  left: calc(50% - 249px);
+  top: 1139px;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 17px;
+  width: 381px;
+  height: 339px;
+  position: absolute;
+  left: calc(50% - 191px);
+  top: 1158px;
+}
+.image-1 {
+  width: 115px;
+  height: 94.5px;
+  position: absolute;
+  left: 55px;
+  top: 4167px;
+}
+.image-2 {
+  width: 126px;
+  height: 93px;
+  position: absolute;
+  left: 379px;
+  top: 3627px;
+}
+.image-3 {
+  width: 102px;
+  height: 114px;
+  position: absolute;
+  left: 62px;
+  top: 3618px;
+}
+.image-4 {
+  width: 101px;
+  height: 114.5px;
+  position: absolute;
+  left: 221px;
+  top: 3618px;
+}
+.sarah {
+  height: auto;
+  position: absolute;
+  right: 23.76%;
+  left: 62.37%;
+  width: 13.87%;
+  bottom: 74.23%;
+  top: 25.08%;
+  height: 0.68%;
+  overflow: visible;
+}
+.image-5 {
+  width: 91px;
+  height: 119.5px;
+  position: absolute;
+  left: 784px;
+  top: 3607px;
+}
+.image-6 {
+  width: 85px;
+  height: 86px;
+  position: absolute;
+  left: 645px;
+  top: 4963px;
+}
+.image-7 {
+  width: 102px;
+  height: 90px;
+  position: absolute;
+  left: 512px;
+  top: 6938px;
+}
+.image-9 {
+  width: 86px;
+  height: 98.5px;
+  position: absolute;
+  left: 144px;
+  top: 12379px;
+}
+.vector-40 {
+  opacity: 0.8600000143051147;
+  width: 78.5px;
+  height: 169px;
+  position: absolute;
+  left: calc(50% - -101px);
+  top: calc(50% - 3482.5px);
+  overflow: visible;
+}
+.vector-44 {
+  width: 378.08px;
+  height: 6805px;
+  position: absolute;
+  left: calc(50% - 476.07px);
+  top: calc(50% - 2964px);
+  overflow: visible;
+}
+.vector-45 {
+  width: 689.19px;
+  height: 10036px;
+  position: absolute;
+  left: calc(50% - 476px);
+  top: calc(50% - 3497.5px);
+  overflow: visible;
+}
+.vector-48 {
+  width: 378px;
+  height: 1px;
+  position: absolute;
+  left: 367px;
+  top: 11080px;
+  overflow: visible;
+}
+.vector-47 {
+  width: 730px;
+  height: 9841px;
+  position: absolute;
+  left: calc(50% - 479px);
+  top: calc(50% - 3487.5px);
+  overflow: visible;
+}

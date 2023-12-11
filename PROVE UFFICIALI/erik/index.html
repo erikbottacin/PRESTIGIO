@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="js/main.js"></script>  -->
+  </head>
+<body>
+
+  <div class="line-container"> 
+  
+    <svg width="285" height="3007" viewBox="0 0 285 3007" fill="none">
+      <path d="M163 159V948C164.167 955.833 164.9 975.5 158.5 991.5C150.5 1011.5 141.5 1031 131.5 1034.5C121.5 1038 116.5 1030.5 103 1014C89.4999 997.5 89.9999 1006 87.4999 1004.5C84.9999 1003 87.4999 999 85.9999 991.5C84.4999 984 89.4999 976.5 80.9999 948C72.4999 919.5 78.4999 928.5 87.4999 931C96.4999 933.5 107 952.5 126.5 951C146 949.5 157 970.5 156.5 982C156 993.5 154.5 1043.5 150.5 1053C146.5 1062.5 170.5 1085 185.5 1086C200.5 1087 215 1094 225 1079.5L188.325 1056L156.825 1090L146.729 1142.5C142.155 1162.77 137.135 1187.75 131.5 1218C125.5 1228.5 109.1 1253 91.5 1267L52 1284.5L16 1293V1303.5L26 1308.5L3.99995 1324L20 1339.5L171 1250.5L200.5 1128.5L179.5 1101L85.5 1133L77.5 1156.5L89 1169.5L77.5 1180L26 1232L20 1267L41.5 1308.5L85 1322L160 1350.5L216 1433.5L225 1536.5V1916.5V2245V3166.5" stroke="#1400FF" stroke-width="5" stroke-linecap="round"/>
+      <path d="M81.8317 131.602L81.7913 131.776C81.5894 132.698 80.2167 132.449 80.358 131.514L81.8518 121.414C81.9797 120.552 81.1318 119.873 80.3109 120.176C78.992 120.667 77.7067 121.178 76.4551 121.69C76.3273 121.743 76.2398 121.865 76.2263 122.006C75.7082 129.024 74.7796 135.996 73.1041 142.879C73.03 143.176 73.3194 143.418 73.602 143.303C78.6017 141.251 84.2138 139.993 89.1529 142.112C84.2138 139.993 78.595 141.258 73.602 143.303C73.3194 143.418 73.03 143.176 73.1041 142.879C74.7594 136.043 75.9908 128.621 76.509 121.663C28.6586 141.46 28.921 176.747 87.6725 178.463C123.505 177.918 157.466 162.845 192.195 154.339C215.363 148.895 252.938 163.073 275.689 152.832C285.756 148.296 288.165 135.148 280.42 127.275C252.831 99.2482 193.817 134.993 150.549 156.465C149.23 157.118 148.2 155.2 149.466 154.447C182.216 135.067 210.915 121.023 245.981 112.599C246.539 112.464 246.909 111.946 246.855 111.374C243.531 76.551 250.085 42.8787 253.315 8.06926C253.369 7.46365 252.945 6.91859 252.346 6.82438C195.822 -2.28678 139.365 -1.14284 82.8074 3.68191C82.1883 3.73574 81.7173 4.28079 81.7576 4.89987C84.3954 46.5528 90.4718 87.3512 82.5988 127.8C82.5988 127.82 82.5988 127.84 82.5988 127.867" fill="black"/>
+      </svg>
+  
+  </div>
+
+</body>
+ 
+<section class="one">
+    <h1 class="scroll" data-rate=".4" data-direction="vertical">The Prestige</h1>
+    <h2 class="subtitle">Did you watch it closely?</h2>
+  </section>
+
+ <section class="two">
+    <h1 class="scroll" data-rate=".2" data-direction="vertical">Succede qualcosa</h1>
+    <p>Scena 1</p>
+  </section> 
+
+<!--
+<script>
+let paths = document.querySelectorAll('svg path');
+
+paths.forEach((path) => {
+  let pathLength = path.getTotalLength();
+  path.style.strokeDasharray = pathLength + ' ' + pathLength;
+  path.style.strokeDashoffset = pathLength;
+
+  window.addEventListener('scroll', () => {
+    
+    // quanto giù in percentuale stiamo scrollando
+    var scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+    
+    // lunghezza per compensare i tratteggi
+    var  drawLength = pathLength * scrollPercentage;
+
+    // draw in reverse
+    path.style.strokeDashoffset = pathLength - drawLength;
+ 
+  });
+});
+
+</script> -->
+
+<script>
+  
+  window.addEventListener('scroll', function() {
+  let scrollPosition = window.scrollY;
+  let pageHeight = document.documentElement.scrollHeight;
+  let windowHeight = window.innerHeight;
+  let halfPagePosition = pageHeight / 2 - windowHeight / 2;
+
+  if (scrollPosition >= halfPagePosition) {
+    // Il tuo codice da eseguire quando lo scroll raggiunge la metà della pagina
+  
+  let paths = document.querySelectorAll('svg path');
+  
+  paths.forEach((path) => {
+    let pathLength = path.getTotalLength();
+    path.style.strokeDasharray = pathLength + ' ' + pathLength;
+    path.style.strokeDashoffset = pathLength;
+  
+// Calcola la percentuale di completamento del disegno
+  let scrollPercentage = (scrollPosition - halfPagePosition) / (pageHeight - halfPagePosition);
+  
+  // Calcola la lunghezza del tratto da disegnare
+  let drawLength = pathLength * scrollPercentage;
+
+  // Disegna il tratto
+  path.style.strokeDashoffset = pathLength - drawLength;
+
+  });
+
+  document.querySelector('.line-container').classList.add('show-line');
+} else {
+    // Il tuo codice da eseguire quando lo scroll è al di sopra della metà della pagina
+
+    let paths = document.querySelectorAll('svg path');
+
+    paths.forEach((path) => {
+      path.style.strokeDashoffset = path.getTotalLength();
+    });
+
+    document.querySelector('.line-container').classList.remove('show-line');
+  }
+});
+  </script>
+
+</body>
+</html>

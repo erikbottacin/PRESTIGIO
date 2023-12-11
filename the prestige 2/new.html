@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="javas.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+
+</head>
+<body>
+    <h1 id="Prestige" style="position: absolute; top: 350px; left:550px; color: white;font-family: loew next; font-size: 4em;">The Prestige</h1>
+    <h1  class="ml3">Are you watching closely?</h1>
+   <script>var textWrapper = document.querySelector('.ml3');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    
+    anime.timeline({loop: false})
+      .add({
+        targets: '.ml3 .letter',
+        opacity: [0,1],
+        easing: "easeInOutQuad",
+        duration: 2250,
+        delay: (el, i) => 150 * (i+1)
+      
+      });
+      </script>
+<div id="svgContainer" style="position: absolute; top: 0px;">
+    <svg id="movingSVG" width="136" height="2000" viewBox="0 0 136 2000" fill="none">
+        <circle id="movingCircle" cx="68" cy="68" r="68" fill="#890202"/>
+    </svg> </div>
+    <div id="hat">
+    <svg id="newSVG" height="320" viewBox="0 0 498 320" style="position: absolute; top: 1300px;">
+        <ellipse cx="249" cy="41.5" rx="249" ry="41.5" fill="#D9D9D9"/>
+        <rect x="58" y="19" width="381" height="339" rx="17" fill="#D9D9D9"/>
+    </svg></div>
+   
+   <div id="y">
+    <svg  id="yellowline"width="1698" height="24550" viewBox="0 0 1698 24550" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path opacity="0.86" d="M1293.84 0V137C1293.84 284 719.07 304.98 719.07 391.5C719.07 478.02 1293.84 470.5 1293.84 596.5V2271V3004V3200.5C1294.75 3217 1295.07 3253.93 1313.07 3292.5C1324.74 3317.5 1359.07 3406.5 1354.57 3421.5C1352.47 3428.5 1347.7 3450.5 1326.5 3454.5C1317.5 3456.5 1303.07 3464 1290.57 3477C1287.07 3486 1289.9 3492.67 1295.07 3496.5C1297.9 3497.83 1304.67 3498.2 1309.07 3489C1309.4 3485.83 1307.37 3478.3 1296.57 3473.5C1291.57 3472.17 1278.07 3471 1271.07 3482.5C1269.85 3484.5 1267.07 3490 1271.07 3520C1271.4 3525.5 1274.87 3544.3 1286.07 3575.5L1305.57 3615.5C1290.57 3587.5 1316.57 3630.6 1330.57 3653C1335.26 3660.5 1349.47 3678.5 1361.07 3712.5C1362.57 3719 1360.07 3737 1338.57 3737C1330.07 3738 1317.57 3719 1313.07 3701C1311.19 3693.5 1306.57 3671.5 1305.57 3632.5C1305.57 3624.5 1302.27 3605.9 1313.07 3575.5C1315.07 3566.83 1327.57 3542 1330.57 3508.5C1331.08 3502.81 1330.57 3486.8 1330.57 3460C1330.57 3448.5 1321.07 3422 1313.07 3402C1311.74 3397.17 1303.77 3386.9 1282.57 3384.5C1277.07 3385.5 1267.07 3384.5 1253.07 3397C1247.07 3401 1241.07 3413 1251.07 3427C1254.28 3431.5 1271.07 3436.84 1288.57 3427C1295.07 3423.34 1304.57 3412.4 1304.57 3390C1301.57 3379 1297.67 3364.8 1278.07 3354C1271.07 3350.83 1251.67 3347 1230.07 3357C1224.74 3359.67 1214.07 3368.9 1214.07 3384.5L1194.07 3401L1220.07 3399C1218.9 3400.33 1216.57 3404 1214.07 3415.5C1213.42 3418.5 1213.77 3430.6 1216.57 3457C1217.05 3461.5 1224.57 3479.3 1242.57 3496.5C1237.9 3498.33 1224.07 3500.5 1219.07 3508C1217.07 3511 1213.07 3517 1216.57 3526.5C1218.41 3531.5 1231.77 3536.1 1242.57 3530.5C1251.07 3523.5 1247.57 3508 1239.57 3504C1226.57 3498 1202.57 3512 1192.57 3524.5C1134.76 3596.76 1223.77 3793.7 1232.57 3878.5L1238.57 3979.5V4074.5C1238.57 4207.5 722.57 4220.5 753.07 4336.5C775.245 4420.84 1293.84 4358.5 1293.84 4554V4768C1293.84 4871.6 1293.84 5067.5 1293.84 5198V7040.5C1291.13 7217 -6.93042 7044 4.06958 7153C16.4328 7275.51 1293.84 7088.5 1293.84 7227.5V7365.5C1293.84 7495.5 803.67 7370.7 810.07 7453.5C816.47 7536.3 1293.84 7498.5 1293.84 7580.5C1293.84 7634 1065.57 7660.28 1065.57 7758C1065.57 7837.5 1293.84 7812.5 1293.84 7917V8070C1293.84 9946.8 1293.84 10379.3 1293.84 10361C1293.84 10594 468.17 10409.9 472.57 10515.5C476.97 10621.1 1293.84 10448.5 1293.84 10624.5V11638C1289.25 11703.2 1323.97 11833.5 1499.57 11833.5V17770.5C1510.57 17804.3 1300.57 17809 1300.57 17884.5V18538.5C1300.57 18633 984.57 18552.3 984.57 18671.5C984.57 18790.7 1300.57 18671.5 1300.57 18804.5V19899C1300.57 20013.5 621.57 19905.1 621.57 20013.5C621.57 20121.9 1300.57 20013.5 1300.57 20128V22191C1300.57 22317 621.57 22210.6 621.57 22317C621.57 22423.4 1300.57 22288 1300.57 22443V24043.5C1300.57 24183.5 1202.07 24178.5 1202.07 24298.5C1202.07 24418.5 1517.07 24546 1697.07 24546" stroke="#FFE600" stroke-width="7"/>
+        </svg>
+        </div>
+    
+
+<script>
+    
+const movingCircle = document.getElementById('movingCircle');
+let textAnimationStarted = false;
+
+function startTextAnimation() {
+    anime.timeline({loop: false})
+    .add({
+        targets: '.ml3 .letter',
+        opacity: [0,1],
+        easing: "easeInOutQuad",
+        duration: 2250,
+        delay: (el, i) => 150 * (i+1)
+    });
+}
+const prestigeText = document.getElementById('Prestige');
+function updateCirclePosition() {
+    const scrollY = window.scrollY;
+    const newSVGTop = newSVG.getBoundingClientRect().top + scrollY;
+    const prestigeTextTop = prestigeText.getBoundingClientRect().top + scrollY;
+   
+
+const scrollPercentage = scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+const y = 2000 * scrollPercentage;
+let opacity;
+
+if (y + 68 < newSVGTop + 100) {
+    opacity = 1 - (y + 68) / (newSVGTop + 100);
+} else {
+    opacity = 0;
+}
+if (y + 68 < prestigeTextTop + 100) {
+        prestigeText.style.opacity = 1 - (y + 68) / (prestigeTextTop + 100);
+        prestigeText.style.transform = `scaleX(${1 + (y + 68) / (prestigeTextTop + 100)})`;
+    } else {
+        prestigeText.style.opacity = 0;
+    }
+    
+    var newY = y + 68;
+    gsap.to(movingCircle, { 
+        duration: 0.5, 
+       y :newY, 
+        opacity: opacity,
+        onUpdate: function() {
+            // If the circle has reached 1300px from the top and the text animation hasn't started yet
+            if (y + 68 >= 1300 && !textAnimationStarted) {
+                startTextAnimation();
+                textAnimationStarted = true;
+            }
+        }
+    });
+    
+}
+
+window.onscroll = function() {
+    var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+
+    updateCirclePosition();
+}
+
+    </script>
+
+
+   
+    </body>
+    </html>

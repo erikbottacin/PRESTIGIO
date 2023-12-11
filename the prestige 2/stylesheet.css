@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    background-image: linear-gradient(blue(25%),red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Add this line */
+    
+}
+
+#movingCircle {
+    fill: rgb(247, 2, 2);
+    transform-origin: center;
+    transform-box: fill-box;
+    position: absolute; /* Add this line */
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+    position: absolute;
+    top: 1100px;
+    left: 400px;
+    color: white;
+    font-family: loew next;
+}
+
+#animatedSVG {
+    position: absolute;
+    top: 1300px;
+    left: 0;
+}
+#newElement {
+    stroke-dasharray: length;
+    stroke-dashoffset: lenght;
+    transition: stroke-dashoffset 8s;
+    top: 2000px;
+    position: relative;
+}
+#yellowline{
+top: 1300px;
+width: 1693.07px;
+height: 24546px;
+}

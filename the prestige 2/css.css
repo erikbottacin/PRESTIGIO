@@ -1,0 +1,20 @@
+body {
+    background-color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#movingCircle {
+    fill: rgb(247, 2, 2);
+    transform-origin: center;
+    transform-box: fill-box;
+}
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+    position: absolute;
+    top: 800px;
+    left: 450px;
+    color: white;
+}
