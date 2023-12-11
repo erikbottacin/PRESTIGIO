@@ -1,0 +1,194 @@
+.frame-6,
+.frame-6 * {
+  box-sizing: border-box;
+}
+.frame-6 {
+  background: #000000;
+  width:auto;
+  height: 14459px;
+  position: relative;
+  overflow-y: auto;
+}
+.are-you-watching-closely {
+  color: #ffffff;
+  text-align: center;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 228.5px);
+  top: 828px;
+  width: 458px;
+  height: 81px;
+}
+.are-you-watching-closely-span {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.are-you-watching-closely-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 40px;
+  line-height: 100%;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.ball {
+  background: #890202;
+  border-radius: 50%;
+  width: 136px;
+  height: 136px;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.the-prestige {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 390.5px);
+  top: 1913px;
+}
+.the-prestige-span {
+  color: #ffffff;
+  font-family: "LoewNext-Light", sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+.the-prestige-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-ExtraBold", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+.the-prestige2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "-", sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 390.5px);
+  top: 2695px;
+}
+.the-prestige-2-span {
+  color: #ffffff;
+  font-family: "LoewNext-Light", sans-serif;
+  font-size: 100px;
+  font-weight: 300;
+}
+.the-prestige-2-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-ExtraBold", sans-serif;
+  font-size: 100px;
+  font-weight: 800;
+}
+.follow-the-characters-in-chronological-order {
+  color: #ffffff;
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 390.5px);
+  top: 3437px;
+  width: 782px;
+  height: 74px;
+}
+.follow-the-characters-in-chronological-order-span {
+  color: #ffffff;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 500;
+}
+.follow-the-characters-in-chronological-order-span2 {
+  color: #ffffff;
+  font-family: "LoewNext-Bold", sans-serif;
+  font-size: 50px;
+  line-height: 100%;
+  font-weight: 700;
+}
+.two-friends-and-fellow-magicians-become-bitter-enemies-after-a-sudden-tragedy-as-they-devote-themselves-to-this-rivalry-they-make-sacrifices-that-bring-them-fame-but-with-terrible-consequences {
+  color: #000000;
+  text-align: center;
+  font-family: "LoewNext-Medium", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 331.5px);
+  top: calc(50% - 4367.5px);
+  width: 676px;
+  height: 176px;
+}
+.rectangle-1 {
+  background: #d9d9d9;
+  border-radius: 17px;
+  width: 381px;
+  height: 339px;
+  position: absolute;
+  left: calc(50% - 190.5px);
+  top: 1158px;
+}
+.ellipse-2 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 498px;
+  height: 83px;
+  position: absolute;
+  left: calc(50% - 248.5px);
+  top: 1139px;
+}
+#path1-container {
+    position: absolute;
+    top: 5000px;
+  }
+#path1 {
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    animation: draw 5s linear forwards;
+    top: 4000px;
+
+}
+.vector-46,
+.vector-46 * {
+  box-sizing: border-box;
+}
+.vector-46 {
+  width: 695px;
+  height: 9841px;
+  position: absolute;
+  overflow: visible;
+}
+.vector,
+.vector * {
+  box-sizing: border-box;
+}
+.vector {
+  border-radius: 0px;
+  width: 1011.08px;
+  height: 10595.38px;
+  position: absolute;
+  overflow: visible;
+}
+.vector-44,
+.vector-44 * {
+  box-sizing: border-box;
+}
+.vector-44 {
+  width: 378.08px;
+  height: 6805px;
+  position: absolute;
+  overflow: visible;
+}
